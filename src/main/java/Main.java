@@ -51,6 +51,7 @@ public class Main {
             for(int j=i+1; j<list.size(); j++) {
                 if(list.get(i).compareTo(list.get(j)) >0) {
                     Collections.swap(list, i, j);
+                    //it will give you sorted List
                 }
             }
         }
